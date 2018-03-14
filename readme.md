@@ -4,7 +4,7 @@
 - 1.1 说明
   - 简单创建一个Springboot入门应用。
 - 1.2 代码
-  - [Chapter1]()
+  - [Chapter1](https://github.com/WuqingVika/WqSpringbootLearn/tree/master/Chapter1)
 - 1.3 笔记
   - 关于@RestController
      - @RestController=@Controller+@ResponseBody()&rarr;返回json格式。
@@ -15,7 +15,7 @@
 - 2.1 说明
   - 如何使用模板将我们属性值显示到页面中。
 - 2.2 代码
-  - [Chapter2]()
+  - [Chapter2](https://github.com/WuqingVika/WqSpringbootLearn/tree/master/Chapter2)
 - 2.3 笔记
    - 无
 - 2.4 踩坑
@@ -25,7 +25,7 @@
 - 3.1 说明
   - 完整的增删改用户案例。
 - 3.2 代码
-  - [Chapter3]()
+  - [Chapter3](https://github.com/WuqingVika/WqSpringbootLearn/tree/master/Chapter3)
 - 3.3 笔记
    - 无
 - 3.4 踩坑
@@ -35,7 +35,7 @@
 - 4.1 说明
   - 在上个应用的基础上，编写了使用Swagger2构建强大的RESTful API文档。
 - 4.2 代码
-  - [Chapter4Swagger2]()
+  - [Chapter4Swagger2](https://github.com/WuqingVika/WqSpringbootLearn/tree/master/Chapter4Swagger2)
 - 4.3 笔记
    - 无
 - 4.4 踩坑
@@ -46,7 +46,7 @@
 - 5.1 说明
   - 如标题。
 - 5.2 代码
-  - [Chapter5-JdbcTemplate]()
+  - [Chapter5-JdbcTemplate](https://github.com/WuqingVika/WqSpringbootLearn/tree/master/Chapter5-JdbcTemplate)
 - 5.3 笔记
    - 无
 - 5.4 踩坑
