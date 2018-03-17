@@ -1,0 +1,15 @@
+server:
+  port: 8057
+
+#person:
+#  name: 吴庆
+#  age: 22
+#  birthDay: 1995/07/18
+#  boss: false
+#  maps: {k1: wq,k2: 22}
+#  lists:
+#    - wu
+#    - qing
+#  dog:
+#    name: 来福
+#    age: 11
