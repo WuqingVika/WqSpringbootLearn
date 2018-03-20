@@ -12,6 +12,7 @@
         <module name="chapter4swagger2" />
         <module name="chapter5-jdbctemplate" />
         <module name="Chapter7-configfile" />
+        <module name="chapter9-employee" />
         <module name="springboot0314" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="chapter4swagger2" target="1.8" />
       <module name="chapter5-jdbctemplate" target="1.8" />
       <module name="Chapter7-configfile" target="1.8" />
+      <module name="chapter9-employee" target="1.8" />
       <module name="springboot0314" target="1.8" />
     </bytecodeTargetLevel>
   </component>

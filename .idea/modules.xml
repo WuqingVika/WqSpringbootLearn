@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter3/chapter3.iml" filepath="$PROJECT_DIR$/Chapter3/chapter3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter4Swagger2/chapter4swagger2.iml" filepath="$PROJECT_DIR$/Chapter4Swagger2/chapter4swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter5-JdbcTemplate/chapter5-jdbctemplate.iml" filepath="$PROJECT_DIR$/Chapter5-JdbcTemplate/chapter5-jdbctemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9-employee/chapter9-employee.iml" filepath="$PROJECT_DIR$/chapter9-employee/chapter9-employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot0314.iml" filepath="$PROJECT_DIR$/springboot0314.iml" />
     </modules>
   </component>
