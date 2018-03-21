@@ -31,7 +31,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
             public void addViewControllers(ViewControllerRegistry registry) {
                 registry.addViewController("/").setViewName("login");
                 registry.addViewController("/index.html").setViewName("login");
-                registry.addViewController("/main.html").setViewName("dashboard");
+                registry.addViewController("/main.html").setViewName("list");
             }
 
             //注册拦截器
@@ -40,12 +40,12 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
                 //super.addInterceptors(registry);
                 //静态资源；  *.css , *.js
                 //SpringBoot已经做好了静态资源映射
-//                registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
-//                        .excludePathPatterns("/index.html","/","/user/login");
-            }
-        };
-        return adapter;
-    }
+//                registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("*//**//**//**//**")
+     //                        .excludePathPatterns("/index.html","/","/user/login");
+     }
+     };
+     return adapter;
+     }
 
     @Bean
     public LocaleResolver localeResolver(){

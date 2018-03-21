@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd6e899-ce1c-4244-b482-0e4b9680f2a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyLocaleResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_en_US.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_zh_CN.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/LoginHandlerInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/list.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter7-configfile/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/com/wq/config/MyMvcConfig$1.class" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/com/wq/config/MyMvcConfig$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/com/wq/web/HelloController.class" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/com/wq/web/HelloController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/HelloController.java" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/HelloController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/application.properties" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/application.properties" />
@@ -35,73 +38,62 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="25">
+              <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding>
-                <marker date="1521556854138" expanded="true" signature="961:970" ph="请登录~" />
-                <marker date="1521556854138" expanded="true" signature="1134:1148" ph="用户名" />
-                <marker date="1521556854138" expanded="true" signature="1269:1283" ph="用户名" />
-                <marker date="1521556854138" expanded="true" signature="1349:1363" ph="密码" />
-                <marker date="1521556854138" expanded="true" signature="1487:1501" ph="密码" />
-                <marker date="1521556854138" expanded="true" signature="1746:1755" ph="登录" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1521636911917" expanded="true" signature="961:970" ph="请登录~" />
+                <marker date="1521636911917" expanded="true" signature="1127:1141" ph="用户名" />
+                <marker date="1521636911917" expanded="true" signature="1262:1276" ph="用户名" />
+                <marker date="1521636911917" expanded="true" signature="1342:1356" ph="密码" />
+                <marker date="1521636911917" expanded="true" signature="1480:1494" ph="密码" />
+                <marker date="1521636911917" expanded="true" signature="1739:1748" ph="登录" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLocaleResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyLocaleResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyMvcConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyMvcConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/application.properties">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_en_US.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_en_US.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
           </provider>
         </entry>
       </file>
@@ -125,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter1/src/main/java/com/wq/HelloController.java" />
         <option value="$PROJECT_DIR$/Chapter1/src/test/java/com/wq/HelloTest.java" />
         <option value="$PROJECT_DIR$/Chapter2/src/main/java/com/wq/Chapter2Application.java" />
         <option value="$PROJECT_DIR$/Chapter2/chapter2.md" />
@@ -164,16 +155,19 @@
         <option value="$PROJECT_DIR$/Chapter7-configfile/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Chapter7-configfile/src/test/java/com/wq/Chapter7ConfigfileApplicationTests.java" />
         <option value="$PROJECT_DIR$/chapter9-employee/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/HelloController.java" />
         <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/entities/Employee.java" />
         <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/dao/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_en_US.properties" />
-        <option value="$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/chapter9-employee/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyLocaleResolver.java" />
-        <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/LoginHandlerInterceptor.java" />
         <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyServerConfig.java" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/LoginController.java" />
+        <option value="$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/list.html" />
       </list>
     </option>
   </component>
@@ -218,6 +212,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,118 +346,9 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asserts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springbootlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot0314" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9-employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="i18n" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'login'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springbootlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot0314" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9-employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springbootlearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot0314" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9-employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wq" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,23 +361,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter9-employee" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wuqingGitHub\springboot0314\sql" />
-      <recent name="E:\wuqingGitHub\springboot0314" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wq" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources\public" />
+      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq\config" />
+      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq\component" />
+      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources\templates" />
+      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq\web" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.wq.domain" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq" />
-      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq\component" />
-      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources\i18n" />
-      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources\static" />
-      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wuqingGitHub\springboot0314\sql" />
+      <recent name="E:\wuqingGitHub\springboot0314" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1048,12 +936,12 @@
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Chapter3Application" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.Chapter2Application" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.Chapter7ConfigfileApplication" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HelloTest.testUserController" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Chapter4Application" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.UserTest.test" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests.contextLoads" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.Chapter9EmployeeApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.Chapter9EmployeeApplication" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HelloTest.testUserController" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.Chapter4Application" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.UserTest.test" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests.contextLoads" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1080,7 +968,9 @@
       <workItem from="1521012539467" duration="4775000" />
       <workItem from="1521286433929" duration="11476000" />
       <workItem from="1521298672189" duration="1212000" />
-      <workItem from="1521552163437" duration="5541000" />
+      <workItem from="1521552163437" duration="5622000" />
+      <workItem from="1521634680722" duration="5110000" />
+      <workItem from="1521640122761" duration="1524000" />
     </task>
     <servers />
   </component>
@@ -1117,7 +1007,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29118000" />
+    <option name="totallyTimeSpent" value="35833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1146,6 +1036,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29648608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1153,7 +1044,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1204,47 +1094,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter4Swagger2/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/Chapter4Swagger2/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4Swagger2/chapter3.md" />
-    <entry file="file://$PROJECT_DIR$/Chapter4Swagger2/src/main/java/com/wq/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/src/test/java/com/wq/HelloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="75" column="23" lean-forward="false" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter4Swagger2/src/main/java/com/wq/Chapter4Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/src/main/java/com/wq/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter4Swagger2/src/main/java/com/wq/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1381,7 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,11 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,7 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="14" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,9 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,7 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,15 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,15 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,23 +1283,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#286#287#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/static/asserts/js/Chart.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1487,7 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1382">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,7 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,9 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1521,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,47 +1360,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="50">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyLocaleResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyErrorAttributes.java" />
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyServerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/LoginHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/public/list.html" />
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/target/classes/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/target/classes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="25">
+          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
-            <marker date="1521556854138" expanded="true" signature="961:970" ph="请登录~" />
-            <marker date="1521556854138" expanded="true" signature="1134:1148" ph="用户名" />
-            <marker date="1521556854138" expanded="true" signature="1269:1283" ph="用户名" />
-            <marker date="1521556854138" expanded="true" signature="1349:1363" ph="密码" />
-            <marker date="1521556854138" expanded="true" signature="1487:1501" ph="密码" />
-            <marker date="1521556854138" expanded="true" signature="1746:1755" ph="登录" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1521636911917" expanded="true" signature="961:970" ph="请登录~" />
+            <marker date="1521636911917" expanded="true" signature="1127:1141" ph="用户名" />
+            <marker date="1521636911917" expanded="true" signature="1262:1276" ph="用户名" />
+            <marker date="1521636911917" expanded="true" signature="1342:1356" ph="密码" />
+            <marker date="1521636911917" expanded="true" signature="1480:1494" ph="密码" />
+            <marker date="1521636911917" expanded="true" signature="1739:1748" ph="登录" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyLocaleResolver.java">
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/web/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="27" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/config/MyMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="79">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
