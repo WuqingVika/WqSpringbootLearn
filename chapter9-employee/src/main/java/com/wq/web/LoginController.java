@@ -31,8 +31,11 @@ public class LoginController {
 
     }
 
-    @RequestMapping (value = "/index")
-    public String test(){
+
+
+    //如下是重定向页面 也可以采用我们自己写的请求 然后添加映射页面就行了。redirect:/list
+   /* @GetMapping (value = "/list")//登录以后跳转到List页面
+    public String toList(){
         return "list";
-    }
+    }*/
 }

@@ -8,7 +8,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<title>Dashboard Template for Bootstrap</title>
+		<title>员工操作页面</title>
 		<!-- Bootstrap core CSS -->
 		<link href="asserts/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.css}" rel="stylesheet">
 
@@ -60,19 +60,20 @@
 						1、SpringMVC中配置HiddenHttpMethodFilter;（SpringBoot自动配置好的）
 						2、页面创建一个post表单
 						3、创建一个input项，name="_method";值就是我们指定的请求方式
+						 wq:修改对应后端请求为putMapping
 						-->
 						<input type="hidden" name="_method" value="put" th:if="${emp!=null}"/>
 						<input type="hidden" name="id" th:if="${emp!=null}" th:value="${emp.id}">
 						<div class="form-group">
-							<label>LastName</label>
-							<input name="lastName" type="text" class="form-control" placeholder="zhangsan" th:value="${emp!=null}?${emp.lastName}">
+							<label>名称</label>
+							<input name="lastName" type="text" class="form-control" placeholder="wuqingleo" th:value="${emp!=null}?${emp.lastName}">
 						</div>
 						<div class="form-group">
-							<label>Email</label>
-							<input name="email" type="email" class="form-control" placeholder="zhangsan@atguigu.com" th:value="${emp!=null}?${emp.email}">
+							<label>邮箱</label>
+							<input name="email" type="email" class="form-control" placeholder="wuqingvika@qq.com" th:value="${emp!=null}?${emp.email}">
 						</div>
 						<div class="form-group">
-							<label>Gender</label><br/>
+							<label>性别</label><br/>
 							<div class="form-check form-check-inline">
 								<input class="form-check-input" type="radio" name="gender" value="1" th:checked="${emp!=null}?${emp.gender==1}">
 								<label class="form-check-label">男</label>
@@ -90,8 +91,8 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<label>Birth</label>
-							<input name="birth" type="text" class="form-control" placeholder="zhangsan" th:value="${emp!=null}?${#dates.format(emp.birth, 'yyyy-MM-dd HH:mm')}">
+							<label>生日</label>
+							<input name="birth" type="text" class="form-control" placeholder="2018-10-20" th:value="${emp!=null}?${#dates.format(emp.birth, 'yyyy-MM-dd HH:mm')}">
 						</div>
 						<button type="submit" class="btn btn-primary" th:text="${emp!=null}?'修改':'添加'">添加</button>
 					</form>
