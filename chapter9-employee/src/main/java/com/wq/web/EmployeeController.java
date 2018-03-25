@@ -7,10 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
@@ -63,6 +60,12 @@ public class EmployeeController {
     public String editEmployee( Employee employee){
         System.out.println("修改的员工信息["+employee+"]");
         employeeDao.save(employee);//修改和添加二合一
+        return "redirect:/emps";
+    }
+
+    @DeleteMapping("/emp/{id}")
+    public String deleteEmp(@PathVariable("id") Integer id){
+        employeeDao.delete(id);
         return "redirect:/emps";
     }
 }
