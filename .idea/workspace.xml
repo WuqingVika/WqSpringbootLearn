@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd6e899-ce1c-4244-b482-0e4b9680f2a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/config/DruidConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/controller/HelloController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6-2-druiddatasource/target/classes/com/wq/config/DruidConfig.class" afterPath="$PROJECT_DIR$/chapter6-2-druiddatasource/target/classes/com/wq/config/DruidConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/dashboard.html" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/emp/add.html" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/emp/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/emp/list.html" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/emp/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/login.html" afterPath="$PROJECT_DIR$/chapter9-employee/target/classes/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/config/DruidConfig.java" afterPath="$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/config/DruidConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Chapter1/target/" />
@@ -43,9 +30,31 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+            <state relative-caret-position="256">
+              <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter62DruiddatasourceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/Chapter62DruiddatasourceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1522496651085" expanded="true" signature="600:624" ph="select * FRO... department" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,22 +62,20 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DruidConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DruidConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/config/DruidConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="445">
+              <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,11 +84,9 @@
       <file leaf-file-name="Chapter62DruiddatasourceApplicationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/test/java/com/wq/Chapter62DruiddatasourceApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter3/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter4Swagger2/src/main/java/com/wq/Swagger2.java" />
         <option value="$PROJECT_DIR$/Chapter4Swagger2/src/main/java/com/wq/web/UserController.java" />
         <option value="$PROJECT_DIR$/Chapter5-JdbcTemplate/pom.xml" />
@@ -167,6 +171,7 @@
         <option value="$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidDataSource.class" />
         <option value="$PROJECT_DIR$/chapter6-2-druiddatasource/pom.xml" />
         <option value="$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -215,7 +220,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,9 +333,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springbootlearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot0314" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter6-2-druiddatasource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,23 +382,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter6-2-druiddatasource" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wuqingGitHub\springboot0314\sql" />
+      <recent name="E:\wuqingGitHub\springboot0314" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wq" />
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wq.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wqlesson\springboot0314\chapter6-2-druiddatasource\src\main\java\com\wq" />
       <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources" />
       <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq\component" />
       <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq\web" />
       <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\java\com\wq" />
-      <recent name="D:\wqlesson\springboot0314\chapter9-employee\src\main\resources\templates" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wq.domain" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wuqingGitHub\springboot0314\sql" />
-      <recent name="E:\wuqingGitHub\springboot0314" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,7 +413,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter62DruiddatasourceApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.Chapter62DruiddatasourceApplication">
     <configuration default="false" name="Chapter4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -926,11 +965,11 @@
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.Chapter2Application" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.Chapter7ConfigfileApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.Chapter9EmployeeApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Chapter4Application" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.UserTest.test" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests.contextLoads" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.Chapter62DruiddatasourceApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Chapter62DruiddatasourceApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.Chapter4Application" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.UserTest.test" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests.contextLoads" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.Chapter7ConfigfileApplicationTests" />
       <item index="10" class="java.lang.String" itemvalue="JUnit.Chapter62DruiddatasourceApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
@@ -965,6 +1004,7 @@
       <workItem from="1521977886849" duration="3675000" />
       <workItem from="1522074197539" duration="349000" />
       <workItem from="1522332859687" duration="3533000" />
+      <workItem from="1522490528052" duration="3310000" />
     </task>
     <servers />
   </component>
@@ -1001,7 +1041,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52093000" />
+    <option name="totallyTimeSpent" value="55403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1018,7 +1058,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39810428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39810428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1109,20 +1149,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter7-configfile/src/main/java/com/wq/web/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7-configfile/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter7-configfile/src/main/java/com/wq/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1187,33 +1213,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_zh_CN.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_en_US.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login_en_US.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/resources/i18n/login.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="14" />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter9-employee/src/main/java/com/wq/component/MyLocaleResolver.java">
@@ -1386,11 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#289#290#0" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1398,7 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,7 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="58" column="25" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="58" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,7 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1449,44 +1466,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1108">
           <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/test/java/com/wq/Chapter62DruiddatasourceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/config/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/Chapter62DruiddatasourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6-2-druiddatasource/src/main/java/com/wq/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1522496651085" expanded="true" signature="600:624" ph="select * FRO... department" />
           </folding>
         </state>
       </provider>
