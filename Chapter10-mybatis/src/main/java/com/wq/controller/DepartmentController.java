@@ -1,4 +1,4 @@
-package com.wq;
+package com.wq.controller;
 
 import com.wq.bean.Department;
 import com.wq.mapper.DepartMapper;
