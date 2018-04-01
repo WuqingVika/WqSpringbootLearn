@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.*;
 /**
  * Created by wuqingvika on 2018/3/31.
  */
-@Mapper
+//@Mapper
 public interface DepartMapper {
     @Select("select * from department where id=#{id}")
     public Department getDeptById(Integer id);
