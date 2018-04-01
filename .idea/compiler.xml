@@ -13,6 +13,7 @@
         <module name="chapter4swagger2" />
         <module name="chapter5-jdbctemplate" />
         <module name="chapter6-2-druiddatasource" />
+        <module name="chapter6-3-data-jpa" />
         <module name="Chapter7-configfile" />
         <module name="chapter9-employee" />
         <module name="springboot0314" />
@@ -26,6 +27,7 @@
       <module name="chapter4swagger2" target="1.8" />
       <module name="chapter5-jdbctemplate" target="1.8" />
       <module name="chapter6-2-druiddatasource" target="1.8" />
+      <module name="chapter6-3-data-jpa" target="1.8" />
       <module name="Chapter7-configfile" target="1.8" />
       <module name="chapter9-employee" target="1.8" />
       <module name="springboot0314" target="1.8" />
