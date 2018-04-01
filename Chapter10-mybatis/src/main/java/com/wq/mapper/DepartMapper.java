@@ -15,8 +15,8 @@ public interface DepartMapper {
     public int deleteDeptById(Integer id);
 
     @Options(useGeneratedKeys = true,keyProperty = "id")
-    @Insert("insert into department(departmentName) values(#{departmentName})")
-    public int insertDept(Department department);
+    @Insert("insert into department(department_name) values(#{departmentName})")
+    public int insertDept(Department department);//开启驼峰式命名数据库字段命名：department_name
 
     @Update("update department set department_name=#{departmentName} where id=#{id}")
     public int updateDept(Department department);
