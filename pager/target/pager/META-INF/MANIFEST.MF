@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: pager Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: wuqingvika
+Implementation-Vendor-Id: com.wq
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_45
+Main-Class: ${start-class}
+

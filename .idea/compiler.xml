@@ -16,7 +16,7 @@
         <module name="chapter6-3-data-jpa" />
         <module name="Chapter7-configfile" />
         <module name="chapter9-employee" />
-        <module name="springboot0314" />
+        <module name="pager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +30,7 @@
       <module name="chapter6-3-data-jpa" target="1.8" />
       <module name="Chapter7-configfile" target="1.8" />
       <module name="chapter9-employee" target="1.8" />
+      <module name="pager" target="1.7" />
       <module name="springboot0314" target="1.8" />
     </bytecodeTargetLevel>
   </component>
