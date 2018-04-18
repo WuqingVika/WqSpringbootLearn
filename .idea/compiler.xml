@@ -17,6 +17,7 @@
         <module name="Chapter7-configfile" />
         <module name="chapter9-employee" />
         <module name="pager" />
+        <module name="springboot0314" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
