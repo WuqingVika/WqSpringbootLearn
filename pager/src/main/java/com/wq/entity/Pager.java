@@ -32,7 +32,7 @@ public class Pager<T> implements Serializable {
        //总页数可以用math.ceil()方法，取大于等于本数的最小整数 如：Math.ceil(25.9); //26
         this.totalPage = (int) Math.ceil(totalRecord / pageSize);
         //5.获取当前第几页
-        if(this.totalPage < pageNum){
+        if(this.totalPage <=pageNum){
             this.currentPage=this.totalPage;
         }else if ( pageNum > 0 && pageNum <this.totalPage) {//正常范围之前
             this.currentPage=pageNum;
@@ -42,7 +42,7 @@ public class Pager<T> implements Serializable {
         //5.起始索引
         int fromIndex= (this.currentPage-1)*this.pageSize;
         //6.结束索引
-        int toIndex=this.currentPage*this.pageSize>this.totalPage?
+        int toIndex=this.currentPage*this.pageSize>this.totalRecord?
                 this.totalRecord:this.currentPage*this.pageSize;//=Long.valueOf()
         this.dataList=sourceList.subList(fromIndex,toIndex);
     }
